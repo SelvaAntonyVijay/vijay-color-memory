@@ -1,0 +1,60 @@
+.main-container{margin: 0 auto; width: 100%; min-width: 720px; min-height: 576px;}
+.main-body{padding: 0; margin: 0; background-color: #D0D0D0;}
+.game-container{margin: 0 auto; width: 700px; max-width: 700px; height: 546px; max-height: 546px;}
+.tile-panel{width: 540px!important; height: 540px!important;}
+.game-score-control{float: left; width: 120px; text-align: center;}
+img.img-game-logo { display: block; max-width: 100%; height: auto;}
+.game-logo, .game-score-info, .bar-score, .text-score-title, #current-score-count, #current-user-tries, .high-score-title, .game-restart{margin: 0; padding: 0; border: 0; font: inherit;}
+.game-high-score { border: 2px solid; box-shadow: 5px 5px 5px #888888; margin-bottom: 20px; margin-top: 20px;}
+.game-high-score ul{ list-style-type: decimal; text-overflow: ellipsis; white-space: pre-line;}
+#restart-button{margin: 0; display: inline-block; padding: 5px; color: #fff; font-family: "Times New Roman", Georgia, Serif; font-size: 14px; appearance: none; background: #F47403; border: none; border-radius: 3px; box-shadow: none; cursor: pointer;}
+.color-panel{width:540px!important; height:540px!important;}
+.color-panel-core { margin-bottom: 10px; color: #28aadc;}
+.clearfix:after { content: ""; display: table; clear: both;}  
+.color-game-panel { margin: 0 auto; width: 100%; height: 100%;}
+.color-game-build {position: relative; padding-bottom: 100%; margin-left: -5px; margin-right: -5px;}
+.game-on-end { padding: 80px 20px; text-align: center;}
+.game-on-end-heading {margin-bottom: 10px; color: #28aadc; font-size: 30px;}
+.game-on-end-message {margin-bottom: 10px;}
+.game-alert{padding: 80px 20px; text-align: center;}
+.game-alert-heading {margin-bottom: 10px; color: #28aadc; font-size: 30px;}
+.game-alert-message {margin-bottom: 10px;}
+.game-block {position: absolute;padding: 5px;}
+.game-build-plan .game-block {width: 25%;height: 25%;}
+.game-build-plan .game-block-1 {top: 0%; left: 0%;}
+.game-build-plan .game-block-2 {top: 0%; left: 25%;}
+.game-build-plan .game-block-3 { top: 0%; left: 50%;}
+.game-build-plan .game-block-4 { top: 0%; left: 75%;}
+.game-build-plan .game-block-5 {top: 25%; left: 0%;}
+.game-build-plan .game-block-6 {top: 25%; left: 25%;}
+.game-build-plan .game-block-7 {top: 25%; left: 50%;}
+.game-build-plan .game-block-8 {top: 25%;left: 75%;}
+.game-build-plan .game-block-9 {top: 50%; left: 0%;}
+.game-build-plan .game-block-10 {top: 50%; left: 25%;}
+.game-build-plan .game-block-11 { top: 50%; left: 50%;}
+.game-build-plan .game-block-12 {top: 50%; left: 75%;}
+.game-build-plan .game-block-13 {top: 75%; left: 0%;}
+.game-build-plan .game-block-14 {top: 75%;left: 25%;}
+.game-build-plan .game-block-15 {top: 75%;left: 50%;}
+.game-build-plan .game-block-16 {top: 75%; left: 75%;}
+.game-block-inner {position: relative; width: 100%;height: 100%; cursor: pointer;}
+.game-block-outside,.game-block-inside { display: block; position: absolute;top: 0; left: 0; width: 100%; height: 100%; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transition: -webkit-transform 0.3s, background 0.3s; transition: transform 0.3s, background 0.3s;}
+.game-block-inside img{width:100%; height:100%;}
+.game-block-outside { background: url("../images/card_bg.gif") 100% 100%; background-color: #dcdee1; background-size: 100% 100%; box-shadow: 0 0 0 1px #787a80;}
+.game-block-inside { background-color: #f8fafc; box-shadow: 0 0 0 1px #787a80; -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg);}
+.game-block-inner.flipped .game-block-outside { -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg);}
+.game-block-inner.flipped .game-block-inside { -webkit-transform: rotateY(0);  transform: rotateY(0);}
+.game-block-inner.flipped.correct .game-block-inside { background-color: #ffffdc;}
+#block-color-hover{ box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:3px solid #F47403;}
+*,*::before,*::after {-moz-box-sizing: border-box;  box-sizing: border-box;}
+body,html { height: 100%; background-color:#D0D0D0 ;}
+body { color: #787a80; font-family: "Times New Roman", Georgia, Serif;  font-size: 14px;}
+h1, h2, h3, h4, h5, h6 { font-weight: 400;}
+a { text-decoration: none;}
+img { display: block; max-width: 100%; height: auto;}
+#game-panel { width:546px; float:right;}
+.color-game-button {margin: 0; display: inline-block; padding: 5px; color: #fff; font-family: "Times New Roman", Georgia, Serif; font-size: 14px; appearance: none; background: #F47403; border: none; border-radius: 3px; box-shadow: none; cursor: pointer;}
+#username, #email{margin-bottom: 5px; width: 200px; height: 30px;}
+
+
+

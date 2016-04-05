@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="author" content="SelvaAntonyVijay">
+		<title>Color Memory Game</title>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/stylesheets/game-color-memory.css">
+		<script type="text/javascript" src="/javascripts/game-color-memory.js"></script>
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="main-body">
+				<div class="game-container">
+					<div id="game-panel">
+
+					</div>
+					<div class="game-score-control">
+						<div class="game-logo">
+							<img class="img-game-logo" src="/images/logo.png" alt="logo">
+						</div>
+
+						<div class="game-score-info">
+							<div class="bar-score">
+								<span class="text-score-title">Score: <span id="current-score-count">0</span> </span>
+							</div>
+							<div class="bar-score">
+								<span class="text-score-title">Tries: <span id="current-user-tries">0</span> </span>
+							</div>
+						</div>
+						<div class="game-high-score">
+							<span class="high-score-title">Highscores</span>
+						</div>
+
+						<div class="game-restart">
+							<button id="game-restart-button">
+								Start Game
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
