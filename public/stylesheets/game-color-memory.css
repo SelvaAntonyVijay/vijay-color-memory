@@ -55,6 +55,7 @@ img { display: block; max-width: 100%; height: auto;}
 #game-panel { width:546px; float:right;}
 .color-game-button {margin: 0; display: inline-block; padding: 5px; color: #fff; font-family: "Times New Roman", Georgia, Serif; font-size: 14px; appearance: none; background: #F47403; border: none; border-radius: 3px; box-shadow: none; cursor: pointer;}
 #username, #email{margin-bottom: 5px; width: 200px; height: 30px;}
+.test{top:10px;}
 
 
 
